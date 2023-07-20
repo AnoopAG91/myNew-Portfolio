@@ -32,10 +32,7 @@
     text-transform: uppercase;
     font-size: 1.5rem;
 }
-.typed-text{
-    font-size: 2rem;
-    color: coral;
-}
+
 .moving-content{
     display: flex;
 }

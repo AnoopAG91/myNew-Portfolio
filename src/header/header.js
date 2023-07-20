@@ -13,7 +13,7 @@ function Header() {
   return (
     <BrowserRouter>
     <div className='Header'>
-    <Navbar expand="lg" className="bg-dark">
+    <Navbar expand="lg" className="bg-dark navbar-dark">
       <Container>
         <Navbar.Brand as={Link} to={"/"}>Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
