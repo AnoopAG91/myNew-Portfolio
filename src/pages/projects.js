@@ -48,7 +48,7 @@ function Projects() {
               <h3>Portfolio</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
-               <button><Link to={"https://kanban-bgaa.vercel.app/"}>Click here</Link></button>
+               <button><Link to={"https://my-new-portfolio-jmo6.vercel.app/"}>Click here</Link></button>
             </div>
          </div>
         </div>
