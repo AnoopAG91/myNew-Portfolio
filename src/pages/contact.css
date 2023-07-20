@@ -1,0 +1,68 @@
+.contact-header {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color:  #ff7f50;
+}
+.contact-hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-form {
+    width: 40%;
+    display: flex;
+}
+.contact-form h2 {
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #4b4543;
+}
+label.form-label {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+button.btn.btn-danger {
+    width: 100%;
+    background-color: #d83a00;
+}
+.contact-details {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+.contact-details h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #4b4543;
+    margin-bottom: 1.5rem;
+}
+.contact-details h4 {
+    font-size: 1.2rem;
+    color: #6c6c6c;
+}
+.contact-details a {
+    color: #d83a00;
+    text-decoration: none;
+}
+.social-media svg {
+    font-size: 1.5rem;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: #4b4543;
+    cursor: pointer;
+}
+.social-media h2 {
+    font-size: 1.5rem;
+    color: #4b4543;
+    font-weight: 600;
+}
+
+

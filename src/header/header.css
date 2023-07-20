@@ -1,9 +1,12 @@
+.navbar-dark.navbar.navbar-expand-lg {
+    background-color: #2b2b2b !important;
+}
 a.nav-link {
     color: white;
 }
 a.navbar-brand {
     color: white;
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
     padding: 0;
 }
@@ -20,6 +23,7 @@ a.nav-link {
     border-top: 2px solid transparent;
     margin: 0px 10px;
     font-family: sans-serif;
+    font-size: 1.2rem;
 }
 a.navbar-brand {
     color: white;

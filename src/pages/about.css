@@ -1,0 +1,108 @@
+.about-header {
+    height: 15vh;
+    background: rgba(229, 0, 134, 0.3), url("https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=450&dpr=1");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color:  #ff7f50;
+}
+.about-hero {
+   display: flex;
+   justify-content: center;
+   margin-top: 5rem;
+   height: 65vh;
+}
+
+.about-img{
+    width: 40%;
+}
+.abt-image{
+    background-image: url(../my_image.jpg);
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px ;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.about-content{
+    width: 40%;
+    margin-top: 2rem;
+    text-align: left;
+}
+.about-content h1{
+    text-align: left;
+    color: coral;
+}
+.about-content h3{
+    text-align: left;
+    color: #636363;
+}
+.about-content p{
+    text-align: left;
+    color: #707070;
+    line-height: 1.6rem;
+}
+.about-content button {
+    background-color: transparent;
+    color: coral;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: 2px solid coral;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+.experience-sec {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fdedd978;
+    height: 65vh;
+    padding-top: 1rem;
+}
+.skills{
+    width: 40%;
+}
+.experience {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills p {
+    color: #787878;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+.skills h1 {
+    color: coral;
+    margin-bottom: 25px;
+}
+
+.experience h1 {
+    color: coral;
+    margin-bottom: 1rem;
+}
+.experience p {
+    color: #787878;
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 2.3rem;
+}
+.experience button {
+    text-align: left;
+    background-color: #d53900;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
