@@ -55,10 +55,11 @@ function About() {
          <div className='ruler'><hr/></div> 
           <div className='experience'>
             <h1>My Experience</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-              <button>Contact Me</button>
+            <p>Hello, I have completed my Front-end development Training in <strong>ReactJs</strong> from <strong>FunctionUp</strong>, which started from march 2023. 
+                As a front end developer I have been given various Assignments and projects during the training period. Such as, social media websites,
+                Kanban App, E-commerce websites and web Applications. During the cohort I have also used many libraries in my projects which makes the apps more user friendly.  
+                Team work was the most interested part during developing the projects. we worked in a group where each members will have different tasks
+                to complete the project. I have got positive feed backs for my contribution of each projects. </p>
           </div>
         </div>
         

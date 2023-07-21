@@ -6,18 +6,18 @@ import {BsInstagram} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 
 function Contact() {
-  const [formStatus, setFormStatus] = React.useState('Send')
-  const onSubmit = (e) => {
-    e.preventDefault()
-    setFormStatus('Submitting...')
-    const { name, email, message } = e.target.elements
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    }
-    console.log(conFom)
-  }
+  // const [formStatus, setFormStatus] = React.useState('Send')
+  // const onSubmit = (e) => {
+  //   e.preventDefault()
+  //   setFormStatus('Submitting...')
+  //   const { name, email, message } = e.target.elements
+  //   let conFom = {
+  //     name: name.value,
+  //     email: email.value,
+  //     message: message.value,
+  //   }
+  //   console.log(conFom)
+  // }
   return (
     <div>
         <div className='contact-header'>
@@ -29,27 +29,27 @@ function Contact() {
         <div className='contact-form'>
         <div className="container mt-5">
       <h2 className="mb-3">Send an email</h2>
-      <form onSubmit={onSubmit}>
+      <form action='https://formspree.io/f/maygnbrz' method='POST'>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">
             Name
           </label>
-          <input className="form-control" type="text" id="name" required />
+          <input className="form-control" type="text" id="name" name='user_name'required  placeholder='Your Name'/>
         </div>
         <div className="mb-3">
           <label className="form-label" htmlFor="email">
             Email
           </label>
-          <input className="form-control" type="email" id="email" required />
+          <input className="form-control" type="email" id="email" required name='user_email' placeholder='Enter Email'/>
         </div>
         <div className="mb-3">
           <label className="form-label" htmlFor="message">
             Message
           </label>
-          <textarea className="form-control" id="message" required />
+          <textarea className="form-control" id="message" required name='message' placeholder='Message'/>
         </div>
         <button className="btn btn-danger" type="submit">
-          {formStatus}
+          {/* {formStatus} */} Submit
         </button>
       </form>
     </div>

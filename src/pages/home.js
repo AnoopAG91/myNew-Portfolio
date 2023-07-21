@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -27,7 +28,7 @@ function Home() {
     />
            
            
-            <button className='main-btn'>Contact Me</button>
+            <button className='main-btn'><Link to={"/contact"}>Contact Me</Link></button>
         </div>
     </div>
   )
