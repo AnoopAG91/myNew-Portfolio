@@ -106,3 +106,113 @@
     padding: 5px 15px;
     border-radius: 5px;
 }
+
+
+/* MEDIAQUERY */
+
+@media (max-width:768px) {
+    .about-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        height: auto;
+    }
+    .about-img {
+        width: auto;
+    }
+    .abt-image {        
+        width: 250px;
+        height: 250px;
+    }
+    .about-content {
+        width: 70%;
+        margin-top: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-content button {
+        background-color: coral;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 10px;
+    }
+    .experience-sec {
+        display: flex;
+        align-items: center;
+        background-color: #fdedd978;
+        height: auto;
+        padding-top: 2rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .skills {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 10px;
+    }
+    .skills h1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .skills p {
+        color: #787878;
+        font-size: 14px;
+        font-weight: 600;
+        font-family: 'Roboto';
+    }
+    .experience {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .experience h1 {
+        font-size: 2rem;
+    }
+    .experience p {
+        color: #787878;
+        font-size: 18px;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+}
+
+
+@media (max-width:560px){
+    .experience-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fdedd978;
+        height: auto;
+        padding-top: 2rem;
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .experience{
+        width: 80%;
+    }
+    .skills h1 {
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .experience h1 {
+        font-size: 1.7rem;
+    }
+    .experience p {
+        color: #787878;
+        font-size: 16px;
+        text-align: left;
+        line-height: 1.5rem;
+    }
+}

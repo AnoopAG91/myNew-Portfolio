@@ -82,3 +82,31 @@
 .projects-hero h3 {
     font-family: sans-serif;
 }
+
+
+
+
+@media (max-width:768px) {
+    .pro-sec1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 2rem;
+        align-items: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .pro1, .pro2, .pro3, .pro4 {
+        width: 80%;
+    }
+    .pro-sec2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+}
