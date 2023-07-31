@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Resume from '../anoopResume.pdf'
+import Resume from '../Resume2.pdf'
 
 import {AiFillHtml5} from 'react-icons/ai'
 import {DiCss3} from 'react-icons/di'
