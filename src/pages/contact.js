@@ -29,6 +29,7 @@ function Contact() {
         <div className='contact-form'>
         <div className="container mt-5">
       <h2 className="mb-3">Send an email</h2>
+     
       <form action='https://formspree.io/f/maygnbrz' method='POST'>
         <div className="mb-3">
           <label className="form-label" htmlFor="name">
@@ -48,9 +49,7 @@ function Contact() {
           </label>
           <textarea className="form-control" id="message" required name='message' placeholder='Message'/>
         </div>
-        <button className="btn btn-danger" type="submit">
-          {/* {formStatus} */} Submit
-        </button>
+        <button className="btn btn-danger" type="submit">Submit</button>
       </form>
     </div>
         </div>

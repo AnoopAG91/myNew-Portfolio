@@ -21,7 +21,7 @@ function Projects() {
               <h3>Twitter Clone</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
-              <button><Link to={"https://twitter-clone-gamma-three.vercel.app/home"}>Click here</Link></button>
+              <button><Link to={"https://twitter-clone-omyt.vercel.app/"}>Click here</Link></button>
             </div>
             <div className='pro2'>
             <img src={Kanban_img} alt='KanBan'/>
